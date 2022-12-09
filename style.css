@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300;400;500;700&family=Mulish&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500;1,800&family=Piazzolla:opsz,wght@8..30,300;8..30,400;8..30,500;8..30,600;8..30,700&family=Poppins:ital,wght@0,200;0,400;0,700;1,500&family=Roboto:ital,wght@0,100;0,300;0,500;1,100;1,300;1,400;1,500&family=Smokum&display=swap");
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+:root {
+  --main-bg-color: #2874f0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: var(--main-bg-color);
+  width: 100vw;
+  position: fixed;
+  top: 0;
+}
+nav {
+  display: flex;
+  width: 100vw;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 88px;
+  padding: 0 25px;
+}
+nav ul {
+  height: 58px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+}
+ul li:hover {
+  font-weight: bold;
+}
+header ul li {
+  list-style: none;
+  padding: 23px;
+}
+header ul li a {
+  color: white;
+  text-decoration: none;
+}
+.searchbar {
+  display: flex;
+  align-items: center;
+}
+.searchbar input {
+  width: 30vw;
+  height: 34px;
+  border-radius: 6px;
+  margin: 0.5rem 1rem;
+  padding: 0 12px;
+}
+/* .btn {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  animation: hover 2s ease-in infinite;
+}
+@keyframes hover {
+  0% {
+    font-weight: 700;
+  }
+  100% {
+    font-weight: 900;
+  }
+} */
+/* .icon a i {
+  position: absolute;
+  padding: 0 521px;
+  margin-bottom: 5px;
+} */
+.container {
+  min-height: calc(100vh - 58px - 12vh);
+  width: 100vw;
+}
+.slider {
+  margin: 2rem auto;
+  width: 70vw;
+  overflow: hidden;
+}
+.card {
+  margin: 5px 42px;
+  font-family: "Lato", sans-serif;
+  border: 2px solid rgb(239, 226, 226);
+}
+.card:hover {
+  transition: 0.1s ease-in-out;
+  box-shadow: 0px 0px 5px var(--main-bg-color);
+}
+.image:hover {
+  transition: 0.1s ease-in-out;
+  box-shadow: 0px 0px 10px var(--main-bg-color);
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.card-item {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 16px;
+}
+footer {
+  background-color: var(--main-bg-color);
+  color: white;
+  height: 12vh;
+  font-family: "Lato", sans-serif;
+  margin-top: 20px;
+}
