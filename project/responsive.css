@@ -1,0 +1,48 @@
+@media screen and (max-width: 786px) {
+  body {
+    overflow-x: hidden;
+  }
+  nav {
+    flex-direction: column;
+  }
+  .logo {
+    justify-content: center;
+    margin: 12px 0;
+  }
+  nav ul {
+    justify-content: center;
+    height: 30px;
+  }
+  .searchbar {
+    justify-content: center;
+  }
+  .slider {
+    height: 23vw;
+  }
+  header {
+    width: 100vw;
+  }
+  footer {
+    width: 100vw;
+  }
+  .card {
+    width: 85vw;
+    margin: 1rem auto;
+  }
+  .cards {
+    flex-direction: column;
+    width: 90%;
+    margin: 1rem auto;
+  }
+  .searchbar input {
+    margin: 0.3rem;
+  }
+  .slider {
+    margin-top: 7rem;
+    height: 40vh;
+    width: 100vw;
+  }
+  .my-2 {
+    text-align: center;
+  }
+}
